@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SkinInsight Pro AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="navbar">
+  <div class="logo">SkinInsight Pro AI</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#products">Products</a>
+    <a href="#faq">FAQs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Smarter Skin Care Awaits</h1>
+    <p>AI-powered analysis for personalized skincare insights — trusted, ethical, easy.</p>
+    <a href="#analysis" class="btn">Get Your Skin Analysis</a>
+  </div>
+  <img src="https://via.placeholder.com/500x350.png?text=Skin+AI+Analysis" alt="Skin Analysis Image">
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <h2>About SkinInsight Pro AI</h2>
+  <p>
+    SkinInsight Pro AI brings the power of trusted AI skin analysis directly to you. Upload your photo and receive
+    customized guidance based on your skin type and concerns — without replacing medical advice. AI interprets key
+    skin attributes to help you care smarter.  
+  </p>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how-it-works" class="section steps">
+  <h2>How It Works</h2>
+  <div class="step-cards">
+    <div class="step">
+      <img src="https://via.placeholder.com/150.png?text=Upload+Photo" alt="Upload Photo">
+      <h4>1. Upload Photo</h4>
+      <p>Snap or upload a clear photo of your skin concern for AI insight.</p>
+    </div>
+    <div class="step">
+      <img src="https://via.placeholder.com/150.png?text=AI+Analyze" alt="AI Analysis">
+      <h4>2. AI Analysis</h4>
+      <p>AI examines features like acne, pigment, hydration, and more.</p>
+    </div>
+    <div class="step">
+      <img src="https://via.placeholder.com/150.png?text=Personal+Tips" alt="Insights">
+      <h4>3. Personalized Tips</h4>
+      <p>Receive actionable skin routine recommendations based on your results.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKIN ANALYSIS -->
+<section id="analysis" class="section light">
+  <h2>Skin Analysis</h2>
+  <p>Upload your image and get personalized skin insights.</p>
+
+  <input type="file" id="imageInput" accept="image/*">
+  <label><input type="checkbox" id="consent"> I understand this is not medical diagnosis.</label>
+  <button onclick="runAnalysis()">Analyze</button>
+
+  <div id="analysisResult" class="result"></div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="section products">
+  <h2>Our Product Range</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="https://via.placeholder.com/200.png?text=Cleansers" alt="Cleansers">
+      <h3>Gentle Cleansers</h3>
+      <p>Cleansing agents suited for different skin types.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200.png?text=Serums" alt="Serums">
+      <h3>Advanced Serums</h3>
+      <p>Targeted solutions for acne, pigmentation & glow.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200.png?text=Moisturizers" alt="Moisturizers">
+      <h3>Hydrating Moisturizers</h3>
+      <p>Keep your skin soft and nourished.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200.png?text=Sunscreens" alt="Sunscreens">
+      <h3>Broad-Spectrum Sunscreens</h3>
+      <p>Daily protection from harmful UV rays.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section faqs">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <h4>Is this a medical diagnosis?</h4>
+    <p>No — this tool provides helpful insights only, not medical advice.</p>
+  </div>
+  <div class="faq-item">
+    <h4>Do you store photos?</h4>
+    <p>Images are processed temporarily and not stored long-term.</p>
+  </div>
+  <div class="faq-item">
+    <h4>Is it safe for all skin types?</h4>
+    <p>Yes — designed for general skin care guidance and education.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <h2>Contact Us</h2>
+  <p>Email: hello@skininsightpro.ai | Phone: +91 7470959536</p>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>⚠️ Not a medical diagnosis tool.</p>
+  <p>© 2025 SkinInsight Pro AI</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

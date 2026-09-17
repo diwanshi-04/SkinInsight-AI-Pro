@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #2e8b57;
+  color: white;
+}
+
+.navbar nav a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+  background: #e8f5eb;
+}
+
+.hero .btn {
+  background: #2e8b57;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.about p, .faqs .faq-item p, .contact form input, .contact form textarea {
+  max-width: 700px;
+  margin: auto;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.step img {
+  width: 150px;
+}
+
+.products .cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.products .card {
+  width: 220px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
