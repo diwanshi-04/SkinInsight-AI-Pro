@@ -806,7 +806,7 @@ export default function AdminPage() {
                       </div>
                     ) : (
                       <div className="space-y-3">
-                        {("free pro premium".split(" ") as const).map(plan => {
+                        {(["free","pro","premium"] as const).map(plan => {
                           const c = planMap[plan]
                           const pct = Math.round((c / Math.max(1, users.length)) * 100)
                           return (
