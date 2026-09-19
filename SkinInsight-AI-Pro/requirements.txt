@@ -1,0 +1,11 @@
+﻿numpy>=1.23
+pillow>=10.0
+flask>=3.0
+flask-cors>=4.0
+opencv-python-headless>=4.8
+gunicorn>=21
+# TFLite is optional: the skin-type model is a small enhancement; the server
+# gracefully falls back to CV-only when no TFLite runtime is available.
+# We use ai-edge-litert on Linux (Py 3.12 wheels available) and full TF on Windows dev.
+ai-edge-litert>=1.0 ; sys_platform != "win32"
+tensorflow>=2.15 ; sys_platform == "win32"

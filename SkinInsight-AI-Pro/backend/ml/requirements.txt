@@ -1,0 +1,10 @@
+﻿# SkinInsight Pro v6 — lean, deterministic skincare-concern analysis
+# (no heavy ML deps; everything is CV + a tiny local TFLite skin-type model)
+numpy>=1.23
+pillow>=10.0
+flask>=3.0
+flask-cors>=4.0
+opencv-python-headless>=4.8
+tflite-runtime>=2.14 ; sys_platform != "win32"
+# Windows fallback — tflite-runtime wheels aren't published for Windows; use full TF
+tensorflow>=2.15 ; sys_platform == "win32"

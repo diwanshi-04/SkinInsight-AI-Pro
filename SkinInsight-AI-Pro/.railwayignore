@@ -1,0 +1,12 @@
+# Keep backend uploads small: the frontend is deployed separately (Vercel)
+.venv/
+.vscode/
+.git/
+frontend/
+backend/ml/__pycache__/
+backend/ml/_test_cache/
+backend/ml/server_v3_backup.py
+backend/ml/server_v5_disease_backup.py
+*.log
+*.pyc
+__pycache__/

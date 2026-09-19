@@ -1,0 +1,12 @@
+# ML models and training data - not needed for frontend
+ml/
+Oily-Dry-Skin-Types/
+Skin-Disease-Detection-Team-Technophile-main/
+skin_type_clean/
+android/
+.next/
+node_modules/
+.venv/
+*.tflite
+*.py
+__pycache__/
