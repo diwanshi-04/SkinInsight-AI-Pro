@@ -692,7 +692,7 @@ export default function ProjectReportPage() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <a href="https://github.com/Harshadakokande" target="_blank">
+                <a href="https://github.com/diwanshi-04" target="_blank">
                   <Github className="w-4 h-4 mr-2" />
                   GitHub
                 </a>
